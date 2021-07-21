@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.397 s <<< FAILURE! - in TestSuite
+pack1.RegisterTest.registerAdmin  Time elapsed: 0.048 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'URL' is required by @Test on method registerAdmin but has not been marked @Optional or defined
+
+
+pack1.RegisterTest.registerEmployee  Time elapsed: 0.097 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'URL' is required by @Test on method registerEmployee but has not been marked @Optional or defined
+
+
+pack1.RegisterTest.registerGuest  Time elapsed: 0.137 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'URL' is required by @Test on method registerGuest but has not been marked @Optional or defined
+
+

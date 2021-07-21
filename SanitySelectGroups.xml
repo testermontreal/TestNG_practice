@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="eCommerce">
+	<test thread-count="5" name="Login">
+
+		<groups>
+			<run>
+				<!-- <include name="Sanity" /> -->
+				<include name="Regression" />
+				<exclude name="Sanity" />
+
+			</run>
+		</groups>
+
+		<classes>
+			<class name="pack1.LoginTest" />
+			<class name="pack1.RegisterTest" />
+			<class name="pack1.LogoutTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
